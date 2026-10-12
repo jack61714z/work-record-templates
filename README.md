@@ -1,12 +1,26 @@
 # Work-record templates
 
+## Use the implementation
+
+The runnable entry for an agent is [SKILL.md](SKILL.md). It directs the agent to perform the task with existing authorized tools; it is not a daemon or a deterministic classifier. An LLM/agent host capable of reading skill files and using the required tools is needed. No sibling repository is required.
+
+1. Obtain this repository through your normal authorized Git workflow, retaining all package files together. Review the skill and resources before adoption.
+2. Install the repository folder as a skill named `work-record-templates` through your host's documented skill installer or skill directory. Do not overwrite an existing customized installation; compare and preserve it first. Hosts without skill discovery can explicitly read `SKILL.md` and its task-relevant resources from the checked-out folder.
+3. Invoke it on an actual authorized work item: “Use $work-record-templates to create and deliver the applicable assignment/result/review for this real task, preserving the current host contract.” Supply the original goal, existing work-item/destination reference and permitted effects. Let the agent recover available facts rather than supplying fictitious observations.
+4. Inspect the actual output and tool effects. A successful file load or syntax check is not actual-use acceptance. Missing tools/authority must be reported precisely rather than replaced with a simulated success.
+
+Updates replace only this package after review; preserve customization, active obligations and history. Removing its skill folder stops future discovery after the host refreshes, not obligations or pending work already created. Follow the host's documented reload behavior; no current-session activation is promised.
+
+Implementation and real-use evidence belong on the [owning work item](https://github.com/jack61714z/work-record-templates/issues/1) and its linked candidate review. Until those observations are saved, actual use remains pending. Explicit invocation does not prove automatic selection or background event coverage.
+
+
 ## Purpose and adoption boundary
 
 These are optional prose prompts for assignments, execution results and reviews. Use only the parts that help the current task. Existing equivalent prose is already acceptable. You may use one template without the others; no companion guide, common schema/runtime, new record type or synchronized version is required.
 
 Templates present information; they do not create policy. They do not require seven-axis drift checks, a retrospective at every closure, task registration, two-person review or any new approval gate. Apply such obligations only where the user's instructions or active policy/host contract already require them. Do not remove existing obligations merely because an optional template omits them.
 
-This is an unactivated, independently maintained document. It grants no operational authority and proves no behavioral improvement. Use and redistribution are governed by the MIT license in this repository. Current permissions, privacy, required writers, review independence and record/transport semantics remain effective. Progressive Investigation (PI), an investigation method, and an existing Chat–Codex handoff system (C2C) remain independent and unchanged.
+This repository includes an independently invocable agent skill. The package is not activated merely by publication. It grants no operational authority and proves no behavioral improvement. Use and redistribution are governed by the MIT license in this repository. Current permissions, privacy, required writers, review independence and record/transport semantics remain effective. Progressive Investigation (PI), an investigation method, and an existing Chat–Codex handoff system (C2C) remain independent and unchanged.
 
 ## Optional context block
 
@@ -75,3 +89,4 @@ Stop using an optional prompt independently by returning to equivalent prose. Pr
 Initial public document revision: 2026-10-12. Maintainer: jack61714z. Corrections may be proposed through this repository. Revised independently; sibling versions are not prerequisites. Publication does not activate this guidance, and behavioral efficacy remains unverified.
 
 This document includes adapted policy and record material from [codex-with-chatgpt](https://github.com/jack61714z/codex-with-chatgpt), licensed under MIT, Copyright (c) 2026 codex-with-chatgpt contributors. New contributions are Copyright (c) 2026 jack61714z. See [LICENSE](LICENSE) for the complete MIT terms and preserved notices.
+
