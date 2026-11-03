@@ -1,6 +1,6 @@
 ---
 name: work-record-templates
-description: Use when drafting or delivering an actual executor assignment, reviewer assignment, execution result or evidence-based review, preserving the host's record fields, tool evidence and readback.
+description: Produce and deliver an executor assignment, supervisor/reviewer assignment, execution result, or review from actual task evidence using independently usable templates and the host's existing record contract.
 ---
 
 # Work-record templates
@@ -21,8 +21,6 @@ Recover the original goal, effective scope, current candidate and material const
 The host's existing required fields and meanings take precedence. Preserve parser names, iteration versus repair labels, exact completion requests, executor evidence and supported unknown/null values when applicable. Do not reset a session, transform old records or resend completed work to fit a template.
 
 ## Produce and deliver
-
-When evidence comes from Chat/Codex sessions, distinguish the assigned parent from a tested child: record exact session/turn and relevant call/result, final artifact and final parent completion. A child completion or a draft receipt cannot certify the parent's later `task_complete`; mark it pending until supported readback. Preserve material corrections by adding the corrected claim and original evidence, not silently rewriting a completed result.
 
 Populate the selected file using actual facts. Delete irrelevant optional prompts instead of filling them with boilerplate. Keep material uncertainty explicit. For an assignment, describe permitted effects and the observable result required; do not prefill eventual acceptance. For a result, include failures and checks not performed. For a review, distinguish inspected evidence from reports and bind its decision to the actual candidate.
 
