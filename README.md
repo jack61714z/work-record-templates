@@ -11,7 +11,7 @@ The runnable entry for an agent is [SKILL.md](SKILL.md). It directs the agent to
 
 Updates replace only this package after review; preserve customization, active obligations and history. Removing its skill folder stops future discovery after the host refreshes, not obligations or pending work already created. Follow the host's documented reload behavior; no current-session activation is promised.
 
-Implementation and real-use evidence belong on the [owning work item](https://github.com/jack61714z/work-record-templates/issues/1) and its linked candidate review. Until those observations are saved, actual use remains pending. Explicit invocation does not prove automatic selection or background event coverage.
+A real [assignment/result/review exchange](https://github.com/jack61714z/work-record-templates/pull/2#issuecomment-6121389104) was observed. Its first standalone recovery failed because the saved account referred to the goal without stating it; the [correction preserves that failure and the actual outcome](https://github.com/jack61714z/work-record-templates/pull/2#issuecomment-6121472760). [Issue #1](https://github.com/jack61714z/work-record-templates/issues/1) is closed for bounded implementation and observed use, not universal recovery, automatic selection or better outcomes.
 
 
 ## Purpose and adoption boundary
